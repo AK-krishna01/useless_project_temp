@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biju Popularity Trend</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      background-color: #121212;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffa500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    #bijuTrendContainer {
+      max-width: 700px;
+      width: 90%;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #121212;
+      box-shadow: 0 0 15px rgba(255, 165, 0, 0.6);
+      text-align: center;
+      color: #ffa500;
+    }
+    #bijuTrendContainer h2 {
+      margin-bottom: 20px;
+      font-weight: 600;
+      color: #ffa500;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="bijuTrendContainer">
+    <h2>Biju Campus Popularity - Time</h2>
+    <canvas id="bijuTrendChart" width="700" height="350"></canvas>
+  </div>
+
+  </div>
+  
+  <script src="trend.js"></script>
+</body>
+</html>
+
