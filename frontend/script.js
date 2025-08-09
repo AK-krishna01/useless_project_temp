@@ -4,14 +4,14 @@ const categories = [
     "Mass",
     "Area",
     "Volume",
-    "Temperature",
+    "Temp",
     "Speed",
     "Time",
     "Energy",
     "Pressure",
-    "Angle",
-    "Data Storage",
-    "Power"
+    "Force"
+    
+    
 ];
 
 // Create category boxes in middle panel
@@ -49,9 +49,9 @@ function addMessage(text, sender) {
     chatBox.scrollTop = chatBox.scrollHeight;
 }
 
-function bijuGPTResponse(query) {
+function bijuGPTResponse() {
     // Placeholder AI response
     setTimeout(() => {
-        addMessage(`I can help with ${query} conversions. (Demo mode)`, 'bot');
+        addMessage(`zzzzzz (Demo mode)`, 'bot');
     }, 500);
 }

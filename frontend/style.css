@@ -107,7 +107,7 @@ body {
 .main-content {
     background-color: #0f0f12d4;
     padding: 20px;
-    overflow-y: auto;
+    
 }
 
 .main-content h2{
@@ -190,7 +190,7 @@ body {
     }
 
 .right-panel {
-    background-color: #1a1a2d;
+    background-color: #111;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -202,7 +202,8 @@ body {
 
 .chat-box {
     flex: 1;
-    background: #222;
+    border: 2px solid orange;
+    background: transparent;
     border-radius: 8px;
     padding: 10px;
     overflow-y: auto;
@@ -215,15 +216,17 @@ body {
 }
 
 .bot {
-    color: #0f0;
+    color: orange;
 }
 
 .user {
-    color: #0ff;
+    color: whitesmoke;
 }
 
 .chat-input {
     display: flex;
+    
+
 }
 
 .chat-input input {
