@@ -16,7 +16,6 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
 }
 
 .logo {
@@ -50,42 +49,10 @@ body {
     color: #f90;
 }
 
-.navbar{
-    background-color: #222;
-    border-radius: 10px;
-    padding: 10px;
-}
-
 .main-content {
-    background-color: #0f0f12;
+    background-color: #2a2a40;
     padding: 20px;
     overflow-y: auto;
-}
-.search-bars{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-.search-bars input{
-    background-color: rgb(48, 46, 46);
-    border: 1px solid rgb(255, 132, 0);
-    border-radius: 10px;
-    color: rgb(255, 132, 0);
-    padding: 10px;
-
-}
-.search-bars input::placeholder{
-    color: rgb(255, 132, 0);
-}
-.search-bars div{
-    width: auto;
-    height: 50px;
-    background-color:rgb(48, 46, 46) ;
-    border: 1px solid rgb(255, 132, 0);
-    padding:10px 0px 0px 10px;
-    padding-bottom: 0px;
-    color: rgb(255, 132, 0);
-    border-radius: 10px;
 }
 
 .unit-grid {
@@ -93,12 +60,6 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 15px;
     margin-top: 20px;
-    
-    border: 1px solid rgb(255, 132, 0);
-    border-radius: 10px;
-    color: rgb(255, 132, 0);
-    padding: 10px;
-
 }
 
 .unit-box {
