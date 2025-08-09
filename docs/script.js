@@ -131,6 +131,24 @@ document.addEventListener('DOMContentLoaded', () => {
         sendMessage();
       }
     });
+
+
+    const knowMoreBtn = document.querySelector('.knowmore button');
+const landingDiv = document.getElementById('palliBijuLanding');
+const closeBtn = document.getElementById('closeLanding');
+
+knowMoreBtn.addEventListener('click', () => {
+  landingDiv.style.display = 'block';
+  document.body.style.overflow = 'hidden';  // prevent background scroll
+});
+
+closeBtn.addEventListener('click', () => {
+  landingDiv.style.display = 'none';
+  document.body.style.overflow = 'auto';  // restore scroll
+});
+
+
+
   
 
 
