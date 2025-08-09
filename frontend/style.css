@@ -159,6 +159,24 @@ body {
     background: #444;
 }
 
+
+#bijuTrendContainer {
+    margin-top: 30px;
+      max-width: 700px;
+      width: 90%;
+      padding: 20px;
+      border-radius: 10px;
+      background: transparent;
+      box-shadow: 0 0 15px rgba(255, 165, 0, 0.6);
+      text-align: center;
+      color: #ffa500;
+    }
+#bijuTrendContainer h2 {
+      margin-bottom: 20px;
+      font-weight: 600;
+      color: #ffa500;
+    }
+
 .right-panel {
     background-color: #1a1a2d;
     padding: 20px;

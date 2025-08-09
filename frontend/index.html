@@ -6,6 +6,8 @@
     <title>BijuIt Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
 </head>
 <body>
 <div class="container">
@@ -51,6 +53,10 @@
         <section class="unit-grid">
             <!-- Boxes created in JS -->
         </section>
+        <div id="bijuTrendContainer">
+            <h2>Biju Campus Popularity - Time</h2>
+            <canvas id="bijuTrendChart" width="700" height="350"></canvas>
+        </div>
     </main>
 
     <!-- Right Panel -->
