@@ -52,6 +52,6 @@ function addMessage(text, sender) {
 function bijuGPTResponse() {
     // Placeholder AI response
     setTimeout(() => {
-        addMessage(`zzzzzz (Demo mode)`, 'bot');
+        addMessage(`Biju: zzzzzz`, 'bot');
     }, 500);
 }

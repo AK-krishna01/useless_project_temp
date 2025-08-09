@@ -149,7 +149,6 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 15px;
     margin-top: 20px;
-
     border-radius: 10px;
     color: rgb(255, 132, 0);
     padding: 10px;
@@ -194,20 +193,45 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    
 }
 .right-panel h2{
+    color: whitesmoke;
+
+    text-align: center;
+    font-family: 'Roboto';
+}
+.right-panel h6{
+    margin-left: 100px;
+    
+    
+    
+}
+
+.right-stuff{
+    border: 2px solid orange;
+    padding: 20px;
+    border-radius: 10px;
+}
+.right-stuff div:nth-of-type(1){
+
+}
+
+.right-stuff div h2{
+    display: inline-block;
+}
+.right-stuff div h2:nth-of-type(2){
     color: orange;
-    align-self: center;
 }
 
 .chat-box {
-    flex: 1;
+    flex: 0.4;
     border: 2px solid orange;
     background: transparent;
     border-radius: 8px;
     padding: 10px;
     overflow-y: auto;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     
 }
 
@@ -217,6 +241,7 @@ body {
 
 .bot {
     color: orange;
+    font-size: 14px;
 }
 
 .user {
@@ -225,21 +250,29 @@ body {
 
 .chat-input {
     display: flex;
-    
+    flex-direction: row;
+    border-radius: 10px;    
 
 }
 
 .chat-input input {
-    flex: 1;
+    flex: 6;
     padding: 8px;
     border: none;
-    border-radius: 4px;
+    
+    width: 100px;
+    border: none;
+    outline: none;
+    color: black;
+}
+.chat-input input::placeholder{
+    color: black;
 }
 
 .chat-input button {
+    flex: 1;
     background: #f90;
     border: none;
     padding: 8px 12px;
-    margin-left: 5px;
     cursor: pointer;
 }
