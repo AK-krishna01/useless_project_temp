@@ -10,7 +10,8 @@
     
 </head>
 <body>
-<div class="container">
+    <div class="pg1">
+        <div class="container">
     <!-- Sidebar -->
     <aside class="sidebar">
         <h1 class="logo">Palli.<span>Biju</span></h1>
@@ -37,10 +38,10 @@
         <header>
             <h2>Biju International Standards</h2>
         </header>
-        <div class="search-bars">
-            <input type="number" id="input-value" placeholder="Type Number">
-            <select id="unit-select"></select>
-            <button id="convert-btn">Convert</button>
+        <div class="search-bars" style="display: flex; align-items: center; gap: 10px;">
+            <input type="text" id="input-value" placeholder="Enter value" />
+            <!-- Unit dropdown will be appended here dynamically -->
+            
             <div id="result-value">Value here</div>
           </div>
           
@@ -70,9 +71,16 @@
                 <input type="text" id="user-input" placeholder="Type your query" />
                 <button id="send-btn">Send</button>
             </div>
+
+            <div class="knowmore">
+                <button>Know More</button>
+            </div>
         </div>
     </aside>
 </div>
+        
+    </div>
+
 <script src="trend.js"></script>
 <script src="script.js"></script>
 </body>

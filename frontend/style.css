@@ -121,6 +121,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    
 }
 .search-bars input{
     background: transparent;
@@ -128,13 +129,15 @@ body {
     border-radius: 10px;
     color: rgb(255, 132, 0);
     padding: 10px;
+    margin: 15px;
+    width: 500px;
 
 }
 .search-bars input::placeholder{
     color: rgb(255, 132, 0);
 }
 .search-bars div{
-    width: auto;
+    width: 500px;
     height: 50px;
     background: transparent;
     border: 3px solid rgb(255, 132, 0);
@@ -167,7 +170,8 @@ body {
 }
 
 .unit-box:hover {
-    background: #444;
+    background: orange;
+    color: black;
 }
 
 
@@ -275,4 +279,30 @@ body {
     border: none;
     padding: 8px 12px;
     cursor: pointer;
+}
+
+.knowmore{
+    width: auto;
+
+}
+
+.knowmore button{
+    background-color: orange;
+    color: black;
+    transition: 0.2s ease-in;
+    padding:10px;
+    font-weight: 600;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 40px;
+    cursor: pointer;
+    
+
+}
+
+.knowmore button:hover{
+    background: transparent;
+    color: orange;
+    border: 2px solid orange;
+
 }

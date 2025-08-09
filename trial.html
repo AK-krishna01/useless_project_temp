@@ -1,53 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BijuIt Dashboard</title>
-    <link rel="stylesheet" href="trial.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Minimal Orange & Black Landing</title>
+<style>
+  /* Reset */
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    background: #000; /* Black background */
+    color: #ff6f00; /* Vibrant orange text */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    padding: 1.5rem 2rem;
+    border-bottom: 2px solid #ff6f00;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+  }
+
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  main h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  main p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    line-height: 1.6;
+    color: #ffa726; /* lighter orange for paragraph */
+  }
+
+  button {
+    background-color: #ff6f00;
+    color: #000;
+    border: none;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #ff9800;
+  }
+
+  footer {
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 2px solid #ff6f00;
+    color: #ffa726;
+  }
+</style>
 </head>
 <body>
-<div class="container">
-    <!-- Sidebar -->
-    <aside class="sidebar">
-        <h1 class="logo">Biju<span>It</span></h1>
-        <div class="profile">
-            <h2>Biju Profile</h2>
-            <p><strong>Name:</strong> Biju Kumar</p>
-            <p><strong>Age:</strong> 32</p>
-            <p><strong>Marital Status:</strong> Married</p>
-        </div>
-        <nav>
-            <ul>
-                <li>Profile</li>
-                <li>Converter</li>
-                <li>Analytics</li>
-            </ul>
-        </nav>
-    </aside>
 
-    <!-- Main Content -->
-    <main class="main-content">
-        <header>
-            <h2>Measurement Categories</h2>
-        </header>
-        <section class="unit-grid">
-            <!-- Boxes created in JS -->
-        </section>
-    </main>
+<header>
+  OrangeBlack
+</header>
 
-    <!-- Right Panel -->
-    <aside class="right-panel">
-        <h2>BijuGPT</h2>
-        <div class="chat-box" id="chat-box">
-            <div class="chat-message bot">Hello! Click a category or ask me to convert anything.</div>
-        </div>
-        <div class="chat-input">
-            <input type="text" id="user-input" placeholder="Type your conversion query...">
-            <button id="send-btn">Send</button>
-        </div>
-    </aside>
-</div>
-<script src="trial.js"></script>
+<main>
+  <h1>Welcome to OrangeBlack</h1>
+  <p>
+    Simple. Sleek. Bold. This is your minimal landing page wrapped in fiery orange and deep black — designed for impact and clarity.
+  </p>
+  <button>Get Started</button>
+</main>
+
+<footer>
+  &copy; 2025 OrangeBlack. All rights reserved.
+</footer>
+
 </body>
 </html>
