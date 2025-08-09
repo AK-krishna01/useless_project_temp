@@ -85,6 +85,57 @@ document.addEventListener('DOMContentLoaded', () => {
   
       unitGrid.appendChild(box);
     });
+
+
+
+    const chatBox = document.getElementById('chat-box');
+    const userInput = document.getElementById('user-input');
+    const sendBtn = document.getElementById('send-btn');
+  
+    const bijuAudio = new Audio('img/biju-sound.mpeg');
+  
+    function addMessage(text, sender) {
+      const msg = document.createElement('div');
+      msg.classList.add('chat-message', sender);
+      msg.textContent = text;
+      chatBox.appendChild(msg);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+  
+    function sendMessage() {
+        const userText = userInput.value.trim();
+        if (!userText) return;
+      
+        // Clear entire chat box
+        chatBox.innerHTML = '';
+      
+        // Add user message
+        addMessage(userText, 'user');
+      
+        // Add bot reply after delay
+        setTimeout(() => {
+          addMessage('zzzzz 🦎', 'bot');
+          bijuAudio.play();
+        }, 500);
+      
+        userInput.value = '';
+      }
+      
+
+  
+    sendBtn.addEventListener('click', sendMessage);
+  
+    userInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        sendMessage();
+      }
+    });
+  
+
+
+
+       
   
   });
 
