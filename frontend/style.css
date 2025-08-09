@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #1e1e2f;
     color: #fff;
+    
 }
 
 .container {
@@ -30,10 +31,29 @@ body {
 }
 
 .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #222;
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 20px;
+}
+.profile h2{
+    color: orange;
+}
+.biju-profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    
+}
+.biju-profile img{
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid orange;
+
 }
 
 .sidebar nav ul {
@@ -121,6 +141,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+.right-panel h2{
+    color: orange;
+    align-self: center;
+}
 
 .chat-box {
     flex: 1;
@@ -129,6 +153,7 @@ body {
     padding: 10px;
     overflow-y: auto;
     margin-bottom: 10px;
+    
 }
 
 .chat-message {
