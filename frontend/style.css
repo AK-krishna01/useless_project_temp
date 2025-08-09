@@ -18,7 +18,14 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    
+}
+.sidebar p{
+    margin-bottom: 30px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Merriweather';
+    
 }
 
 .logo {
@@ -37,7 +44,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #222;
+    background: transparent;
+    border: 3px solid orange;
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -56,6 +64,9 @@ body {
     border-radius: 50px;
     border: 2px solid orange;
 
+}
+.biju-data{
+    color: orange;
 }
 
 .sidebar nav ul {
@@ -80,6 +91,7 @@ body {
     border-radius: 10px;
     border: 3px solid orange;
     padding: 10px;
+    margin-bottom: 30px;
     
 }
 .navbar li{
@@ -174,7 +186,7 @@ body {
 #bijuTrendContainer h2 {
       margin-bottom: 20px;
       font-weight: 600;
-      color: #ffa500;
+      color: black;
     }
 
 .right-panel {
