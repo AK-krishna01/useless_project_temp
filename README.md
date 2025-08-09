@@ -93,3 +93,9 @@ Thanks for checking out **Palli.Biju**! If you like it, give us a virtual high-f
 
 ##Pics
 
+![8318881c76304f7386c499cb9d12a0d0](https://github.com/user-attachments/assets/6af3bb6c-5465-491c-a1b6-05282bf4203e)
+![464a3523d00b4cd2982fe47f6ce1fbef](https://github.com/user-attachments/assets/86b83923-b079-4582-97de-4f26d8c92000)
+![b0d94f38020c4b36ad8d87217b3f8cc7](https://github.com/user-attachments/assets/b95af0ba-e4ed-4e0d-b389-4e20b135acfc)
+![7bba70cf0bf94f5b8606413fdd8a0517](https://github.com/user-attachments/assets/888a3ec3-0af4-427a-8ef0-5bbf1250fa6d)
+
+
